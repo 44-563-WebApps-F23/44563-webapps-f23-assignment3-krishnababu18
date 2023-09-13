@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about me</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
 </head>
 <body>
     <h1>krishna babu Gali</h1>
@@ -24,5 +29,46 @@
         <li>Bambo Chicken 65</li>
     </ul>
     <a href="mystats.html">MyStats</a>
+    <hr>
+    <h3>Tables</h3>
+    <p>Sporting activity teaches how to manage emotions and deal with difficult sentiments in a constructive way.Sports aid in the growth of physical abilities, exercise, friendship, fun, teamwork, fair play, and self-esteem.</p>
+    <table style="width:50%">
+        <tr>
+            <th>type of Sport</th>
+            <th>Reason to play</th>
+            <th>Hours per week</th>
+
+        </tr>
+        <tr>
+            <td>Cricket </td>
+            <td>team work </td>
+            <td>06</td>
+        </tr>
+        <tr>
+            <td>vollyball</td>
+            <td>will increase stamina</td>
+            <td>08</td>
+        </tr>
+        <tr>
+            <td>kabbadi </td>
+            <td>coordination </td>
+            <td>06</td>
+        </tr>
+        <tr>
+            <td>soccer</td>
+            <td>all round development</td>
+            <td>08</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>code disply</h3>
+    <q>I would like to use custom shortcodes in Yoast SEO Plugin, but I can't bring it to work. I want to put custom time specifications in the meta title?</q>
+     <a href="https://stackoverflow.com/questions/41353488/custom-shortcodes-in-yoast-seo">stack over flow link </a>
+     <pre> function year_shortcode() {
+        $year = date('Y');
+        return $year;
+      }
+      add_shortcode('year', 'year_shortcode');
+     </pre>
 </body>
 </html>
